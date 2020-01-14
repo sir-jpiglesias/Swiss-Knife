@@ -1,19 +1,20 @@
 # .fasta File Reader
 geneWanted = input(" What gene do you want to read? ")
 filename = geneWanted + ".fasta"
-path = "/Users/jpiglesias/Desktop/JPIglesias/Bioinformatics/sequences/" + filename
+path = "./sequences/" + filename
 file = open(path)
 geneRaw = file.read()
 gene = geneRaw.replace("\n", "")
 
-print("Given Strand")
+print("")
+print("Given DNA Strand")
 print(gene)
 print("")
 
-print("Complementary Strand")
-# Complement Generator
+print("RNAm Strand")
+# RNAm Generator
 for i in gene:
-    if i == "A":print("T", end= "")
+    if i == "A":print("U", end= "")
     elif i == "T":print("A", end= "")
     elif i == "C":print("G", end= "")
     elif i == "G":print("C", end= "")

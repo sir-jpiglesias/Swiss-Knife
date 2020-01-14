@@ -13,3 +13,5 @@
 # BIOINFORMATICS SWISS KNIFE
 # Simple set of tools for doing some science.
 # Built by: José Pablo Iglesias (https://github.com/sir-jpiglesias)
+# Licensed under the MIT License
+# Last Edit (01/13/2020)
