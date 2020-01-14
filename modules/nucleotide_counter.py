@@ -14,8 +14,6 @@ G = gene.count("G")
 totalNucleotides = A + T + G + C
 ATr = (A + T) / totalNucleotides
 GCr = (G + C) / totalNucleotides
-
-# Print Statements
 print(" ")
 print(filename, "Nucleotide Content")
 print(" ")

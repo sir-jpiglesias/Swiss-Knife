@@ -6,6 +6,7 @@ file = open(path)
 geneRaw = file.read()
 gene = geneRaw.replace("\n", "")
 
+# Sequence Transcribe
 print("")
 print("Given DNA Strand")
 print(gene)

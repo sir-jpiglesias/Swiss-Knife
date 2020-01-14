@@ -6,12 +6,11 @@ file = open(path)
 geneRaw = file.read()
 gene = geneRaw.replace("\n", "")
 
+# Sequence Complementor
 print("Given Strand")
 print(gene)
 print("")
-
 print("Complementary Strand")
-# Complement Generator
 for i in gene:
     if i == "A":print("T", end= "")
     elif i == "T":print("A", end= "")
