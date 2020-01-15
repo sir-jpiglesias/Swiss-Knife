@@ -62,7 +62,7 @@ elif selection == "complement":
         elif i == "T":print("A", end= "")
         elif i == "C":print("G", end= "")
         elif i == "G":print("C", end= "")
-        else: print("Error")
+        else: print("[Error]")
     print("")
 elif selection == "transcribe":
     # DNA Transcription
@@ -76,7 +76,7 @@ elif selection == "transcribe":
         elif i == "T":print("A", end= "")
         elif i == "C":print("G", end= "")
         elif i == "G":print("C", end= "")
-        else: print("Error")
+        else: print("[Error]")
     print("")
 else:
     print("ERROR: Input is not valid.")
